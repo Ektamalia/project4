@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int arr[5];
+cout<<"enter elemnts:";
+int i=0;
+while(i<=4)
+{cin>>arr[i];
+i++;}
+cout<<"you entered:";
+int j=0;
+while(j<=4)
+{cout<<arr[j]<<"\n";
+j++;}
+cout<<*(arr+j);
+return 0;
+
+}
